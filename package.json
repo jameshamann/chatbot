@@ -1,15 +1,23 @@
 {
-  "name": "bot",
+  "name": "chatbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A chat bot using ClaudiaJS Bot Builde",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameshamann/chatbot.git"
+  },
+  "author": "James Hamann",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jameshamann/chatbot/issues"
+  },
+  "homepage": "https://github.com/jameshamann/chatbot#readme",
   "dependencies": {
-    "botbuilder": "^3.7.0",
-    "restify": "^4.3.0"
+    "claudia-bot-builder": "^2.13.2",
+    "huh": "^2.0.1"
   }
 }
